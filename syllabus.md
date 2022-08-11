@@ -54,43 +54,40 @@ nav_order: 5
 
 ## Full Course Description 
 
-Figure out all values of $x,y,z$ that solve the equations
- $$ 
-    5x - 2y + z = 1 \\
-    -x + y - 3z = 0 \\
-    2x - y + z = -1 
- $$
-The most direct attack would perhaps be to repeatedly substitute and simplify to reach only a single variable equation. Are there easier ways? More efficient ways? What if we had 256 equations and 128 variables? 
+Since the advent of human communication, people have wanted to communicate privately. And others have wanted to listen 
+in on those ostensibly private communication. Our modern situation where a large portion of our interactions occur online 
+presents a special need for such security and an attractive target. 
 
-In this class, we study the structure of linear equations from both very concrete and mildly abstract perspectives. We will develop tools that allow us to both gain a conceptual understanding of systems of linear equations and underpin robust computational tools. 
+In this course, we cover the basics of cryptography starting from ciphers used in ancient times up to modern encryption 
+and signature protocols. We focus on the mathematical foundations of both cryptography and cryptanalysis. 
 
-Our pen, paper, and mental work will be supplemented with a working knowledge of [Sage](https://www.sagemath.org/). 
- 
 ## Prerequisites 
 
 {{ site.prereqs }}
 
 ## Learning Outcomes 
 
-After successful completion of this course, you will be able to: 
-
-- Determine the complete solution to $Ax = b$
-- Relate linear transformations, matrices, and change of basis
-- Recognize linearly dependent and independent collections of vectors
-- Compute bases and dimensions of vector spaces
-- Orthogonalize vectors using Gram-Schmidt
-- Know and use the properties of determinants
-- Compute eigenvalues and eigenvectors
-- Appreciate the ubiquity of linear algebra across science
+After successful completion of course, you will:
+- Apply and attack polyalphabetic ciphers
+- Explain the conceptual framework for different methods of encryption
+- Obtain fluency in the underlying mathematics for common cryptosystems like Elgamal and RSA
+- Become acquainted with modern mathematics underpinning major approachs to post-quantum cryptography
 
 ## Course Materials 
 
-The main resources for materials are the [course website](https://544.f21.matthewrobertballard.com) and the [Microsoft Team](https://teams.microsoft.com/l/channel/19%3aJgLzdLZpFCbmrJptHxrA2E7bvjwXsxJFPmFdJmn1-CI1%40thread.tacv2/General?groupId=5ff176b0-5dbd-44cb-a436-ec0c668e897e&tenantId=4b2a4b19-d135-420e-8bb2-b1cd238998cc) for the course. 
+The main resources for materials are the [course website](https://587.f21.matthewrobertballard.com), 
+the [Microsoft Team]({{ site.teams_url }}) for the course, and the [Github organization](https://github.com/UofSC-Fall-2022-Math-587-001/). 
 
-Some supplemental (and optional) resources:
-- K. Kuttler. [A first course in linear algebra](https://www.oercommons.org/courses/first-course-linear-algebra/view) (Open Access)
-- J. Hefferon. [Linear algebra](https://joshua.smcvt.edu/linearalgebra/) (Open Access)
-- G. Strang. [Introduction to linear algebra](http://math.mit.edu/~gs/linearalgebra/) 
+The main text for this course is 
+- J. Hoffstein, J. Pipher, J. Silverman. An introduction to mathematical cryptography. A free electronic copy is 
+[available](https://sp.springer.com/saml/login?idp=https://idp.sc.edu/entity&targetUrl=https://link.springer.com/book/10.1007/978-1-4939-1711e2) through 
+UofSC libraries. 
+
+Some other texts that you might find useful/interesting:
+- W. Stallings. [Cryptography and network security](http://williamstallings.com/Cryptography/). A previous choice for text. 
+- S. Singh. [The code book](http://www.simonsingh.net/books/the-code-book/the-book). A popular history of cryptography and cryptanalysis 
+through the ages. 
+- B. Schneier. [Applied cryptography](https://www.schneier.com/books/applied-cryptography). 
 
 All course materials comply with copyright/fair use policies. 
 
@@ -100,12 +97,15 @@ All course materials comply with copyright/fair use policies.
 
 To wholly and successfully engage with the course, you will need to be need to [attend](#attendance-policy-and-covid-reporting) class, attempt lots of problems, and engage both with me and your fellow classmates. All course materials are will be made available online so regular Internet access is essential for successful completion of the course. 
 
+**Due to construction delays for the renovation of LeConte College, we will plan to meet virtually until September 7, at least. We will use 
+Microsoft Teams. Links to the meeting will be provided in advance. We will return to face-to-face instruction when possible.**
+
 It is expected that much of this material will be unfamiliar to you. (If not, more power to you.) The course is structured to guide every student to mastery in terms of conceptual understanding and computational fidelity by the end of the semester.
 
 Class time will be spent working in small groups and presenting solutions to problems. It is expected you will have consumed the relevant material ahead of each course. It is not expected you will be comfortable with the material. Class time is for learning through doing and working through your 
 misunderstandings. 
 
-Each class will end with a short quiz to diagnose any problems. 
+Weekly short quizzes will help to diagnose any problems. 
 
 At the end of the class, a project will be due in place of a final exam.  
 
@@ -130,13 +130,12 @@ To participate in learning activities and complete assignments, you will need:
 - Reliable Internet access and a USC email account; 
 
 - If you plan to submit handwritten assignments, a scanning device such as a smartphone with the Microsoft Office Lens app.  
+Latex submissions are encouraged but not required. 
 
-- The main hub for this course is the Microsoft Teams team [COTEAM-BALLARMR-MATH-544-H01-FALL-2021](https://teams.microsoft.com/l/channel/19%3aJgLzdLZpFCbmrJptHxrA2E7bvjwXsxJFPmFdJmn1-CI1%40thread.tacv2/General?groupId=5ff176b0-5dbd-44cb-a436-ec0c668e897e&tenantId=4b2a4b19-d135-420e-8bb2-b1cd238998cc) run through UofSC’s Microsoft Teams account. To access the team for the first time on your desktop/laptop, you can use the join link including in your welcome email.   
+- The main hub for this course communication is the Microsoft Teams team [COTEAM-BALLARMR-MATH-587-001-FALL-2022]({{ site.teams_url }}) run through UofSC’s Microsoft Teams account. To access the team for the first time on your desktop/laptop, you can use the join link including in your welcome email.  
 
-- We will be using a computer algebra system called [Sage](https://www.sagemath.org/) to aid our learning. It blows your graphing calculator out of the water and is ideally suited to STEM work. Built as a super-set of the popular programming language [Python](https://www.python.org/), Sage skills will translate into Python skills. There are three main ways to access Sage: 
-    - [SageMathCell](https://sagecell.sagemath.org/) is ideal for a computation involving a few lines. 
-    - [CoCalc](https://www.cocalc.com/) provides a free plan for more complicted porgrams. 
-    - [A local installation](http://doc.sagemath.org/html/en/installation/binary.html) will never be required of anyone. But, it might be valuable for a power-user. 
+As part of the class, you will gain some familiarity with the version control system [git](https://git-scm.com), the git repository hosting 
+platform [Github](https://github.com), and the programming language [Go](https://go.dev). No previous familiarity will be assumed. 
  
 ## Minimal Technical Skills Needed  
 
@@ -158,19 +157,25 @@ If you have problems with your computer, technology, IT-related questions, suppo
 
 ## Homework	 
 
-Homework will need to be completed in groups of 3-4 that will be randomly assigned each week. The assignments will be available in and must be returned through Microsoft Teams. All homework assignments are due by 11:59 pm (Eastern Time) on the day indicated on the course schedule. Homework will be graded for correctness. You will be allowed up to two revisions on each homework assignment. 
+Homework will need to be completed in groups of 3-4 that will be randomly assigned each week. The assignments will be available 
+in and must be returned through [Github Classroom]({{ site.github_classroom }}). All homework assignments are due by 11:59 pm 
+(Eastern Time) on the day indicated on the course schedule. Homework will be graded for correctness. You will be allowed up to 
+two revisions on each homework assignment. 
 
 ## Quizzes 
 
-Each course will end with a short quiz. The goal of the quiz is to diagnose any gaps in the understanding and make sure we all stay on the same page. Quizzes are graded for correctness. You will be allowed up to two revisions on each quiz. 
+Each week will end with a short quiz. The goal of the quiz is to diagnose any gaps in the understanding and make sure we all 
+stay on the same page. Quizzes are graded for correctness. You will be allowed up to two revisions on each quiz. 
 
 ## Presentations 
 
-All students are expected to regularly present solutions to in-class work group problems. Your target should be to present one solution every two weeks. Presentations are graded simply for completion. If you attempt it, it counts. 
+All students are expected to regularly present solutions to in-class work group problems. Your target should be to present 
+one solution every two weeks. Presentations are graded simply for completion. If you attempt it, it counts. 
 
 ## Project 
 
-A list of project topics will be released on October 1. These can be done in groups of 1-4 of your own choosing. Projects are due by December 9 at 9:00 am (EST). 
+A list of project topics will be released on October 3. These can be done in groups of 1-4 of your own choosing. 
+Projects are due by December 7 at 11:30 am (EST). 
 
 ## Evaluation and Grading Scale 
 
@@ -200,7 +205,7 @@ All grades will be posted on Teams. You are strongly encouraged to check you sco
 
 ## Assignment Submission 
 
-All written assignments are required to be submitted through Teams. Unless otherwise specified in the problem, you will be able to enter text directly through Teams or upload a scan of handwritten work. If you choose to upload a scan, then  
+All written assignments are required to be submitted through Github. If you choose to upload a scan, then  
 
 - the handwriting must be clear and legible – otherwise you will receive no credit 
 
@@ -262,16 +267,15 @@ All absences due to documented illness or quarantine will be excused, and no gra
 
 ## COVID Policies 
 
-As of 8/17/2021, UofSC requires face coverings, including in the class. For more information on this semester's COVID policies see the [guidance](https://sc.edu/about/offices_and_divisions/provost/academicpriorities/keepteaching/guidance/index.php) from the Provost. 
+UofSC no longer requires face coverings, including in the class. For more information on this semester's COVID policies see the [guidance](https://sc.edu/about/offices_and_divisions/provost/academicpriorities/keepteaching/guidance/index.php) from the Provost. 
 
 **I strongly encourage getting vaccinated**. 
 
 **I encourage physical distancing**. While not always possible, I will strive to keep everyone at least three feet apart, even when working in groups, which we will do regularly. If you feel uncomfortable with group work in my class, please come talk with me and I don’t mind letting you work independently at all.
 
-**I have been requested to keep a seating chart**. I have been urged to keep this seating chart for contact tracing purposes and will do my best to abide by the University policy.
-
 ### Questions You May Have
-**What if I get sick with COVID?** Two things have to occur: Isolation: Students who have been diagnosed with COVID-19 are released from isolation when a medical professional has determined, based on the current CDC and DHEC guidelines, that they have recovered. Currently, these guidelines include being fever-free for at least 24 hours and at least 10 days from their first symptom or positive test if they are asymptomatic. Quarantine: Unvaccinated students who are deemed a close contact with a confirmed COVID-19 case will be quarantined for 7-14 days from their last contact with the infected individual. More specifically, students who test negative on day 5, 6, or 7 can leave quarantine after 7 full days; individuals who did not test but remain asymptomatic can leave after 10 full days. Individuals who are symptomatic or have other health concerns may be advised to remain under quarantine for 14 days. 
+**What if I get sick with COVID?** Two things have to occur: Isolation: Students who have been diagnosed with COVID-19 are released from isolation when a medical professional has determined, based on the current CDC and DHEC guidelines, that they have recovered. Currently, these guidelines include being fever-free for at least 24 hours and at least 5 days from their first symptom or positive test if they are asymptomatic. If symptoms persist on the 
+fifth day, then the isolation must be extended to 10 days. 
 
 **What is the attendance policy if I get COVID?** In brief, I must provide make-up course work including content and assignments when students have excused absences which include (but are not limited to) being in quarantine or isolation, religious holidays, medical conditions related to pregnancy, and military duty. However, recorded classes and hybrid/online options are not required and should not be expected. All excused absences must have documentation.  See syllabus for further attendance policies.
 
@@ -369,7 +373,7 @@ I am expected to facilitate learning, answer questions appropriately, be fair an
 
 I will cite and/or reference any materials that I use in this course that I do not create. 
 
-Anything that appears on this website is copyright &copy; 2021 Matthew Ballard and is distributed by an <a href="https://github.com/UofSC-Fall-2021-Math-544-H01-UofSC-Fall-2021-Math-544-H01.github.io/tree/master/LICENSE.txt\">MIT license.
+Anything that appears on this website is copyright &copy; 2021 Matthew Ballard and is distributed by an <a href="https://github.com/UofSC-Fall-2021-Math-544-H01-UofSC-Fall-2021-Math-544-H01.github.io/tree/master/LICENSE.txt">MIT license</a>.
 
 Course materials that do not appear on this website are copyright &copy; 2021 Matthew Ballard and all rights are reserved. In particular, you may not distribute any of these course materials in any fashion. 
 
@@ -381,59 +385,76 @@ This is the (ambitious) plan for the semester. But it is only a plan. The succes
 - 8/19 welcome and orientation
 
 ## Week 2
-- 8/24 addition and multiplication of matrices and vectors
-- 8/26 solving linear systems: row reduction 
+- 8/22 Simple substition ciphers
+- 8/24 Frequency analysis
+- 8/26 From alphabets to modular arithmetic
 
 ## Week 3
-- 8/31 row echelon form and LU decompositions  
-- 9/2 geometry and solvability of linear systems 
+- 8/29 Modular arithmetic
+- 8/31 Euclidean algorithm
+- 9/2 Complexity 
 
 ## Week 4
-- 9/7 ranges and null spaces of matrices - implicit and parametric representations
-- 9/9 linear dependence and spans of collections of vectors - dimensions and bases
+- 9/5 Powers and primitive roots
+- 9/7 Overview of groups
+- 9/9 Discrete logs
 
 ## Week 5
-- 9/14 row rank, column rank  
-- 9/16 invertibility 
+- 9/12 Public keys and asymmetric encryption
+- 9/14 One way functions
+- 9/16 Diffie-Hellman-Merkle
 
 ## Week 6
-- 9/21 vector spaces
-- 9/23 subspaces
+- 9/19 Elgamel 
+- 9/21 Collisions
+- 9/23 Chinese-Remainder theorem
 
 ## Week 7
-- 9/28 bases again
-- 9/30 linear transformations 
+- 9/26 Polig-Hellman
+- 9/28 Euler's function and roots modulo $pq$
+- 9/30 RSA
 
 ## Week 8
-- 10/5 kernels and images
+- 10/3 Implementation and security issues for RSA
+- 10/5 Testing for primality
+- 10/7 Pollard's $p-1$
 
 ## Week 9
-- 10/12 isomorphisms 
-- 10/14 determinants: the idea
+- 10/10 Smooth numbers and sieves
+- 10/12 Quadratic residues
+- 10/14 Fall break. 
 
 ## Week 10
-- 10/19 determinants: computations
-- 10/21 the complex number system
+- 10/17 Counting 
+- 10/19 The Vigenère cipher
+- 10/21 Probability I
 
 ## Week 11
-- 10/26 eigenvalues and eigenvectors 1
-- 10/28 eigenvalues and eigenvectors 2
+- 10/24 Probability II
+- 10/26 Collision and meet-in-the-middle
+- 10/28 Pollards $\rho$ method
 
 ## Week 12
-- 11/2 symmetric matrices
-- 11/4 positive definite matrices 
+- 10/31 Information theory I
+- 11/2 Information theory II
+- 11/4 P vs NP
 
 ## Week 13
-- 11/9 diagonalizability
-- 11/11 diagonalizability 2 
+- 11/7 Elliptic curves I
+- 11/9 Elliptic curves II
+- 11/11 DLP for elliptic curves
 
 ## Week 14
-- 11/16 orthogonality and projections
-- 11/18 least squares approximations
+- 11/14 Elliptic curve cryptography
+- 11/16 Lenstra's factorization algorithm
+- 11/18 Basics of ring theory I
 
 ## Week 15
-- 11/23 gram-schmidt and QR factorization
+- 11/21 Basics of ring theory II
+- 11/23 Thanksgiving Break. 
+- 11/25 Thanksgiving Break. 
 
 ## Week 16 
-- 11/30 singular value decomposition
-- 12/2 selected applications 
+- 11/28 Reminder on linear algebra
+- 11/30 Lattices
+- 12/2 Overview of lattice based cryptography

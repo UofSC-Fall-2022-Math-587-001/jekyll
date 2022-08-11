@@ -1,11 +1,21 @@
 ---
-title: Vector Spaces
-ended: true
+title: Historical cryptography and cryptanalysis	
+ended: false
 ---
 
-Sept 23
-: Subspaces and spans
-  : 
-: Pre-reading: [subspaces]({% link notes/solving_linear_systems/row_echelon_form.md %})
-: [**HW 4 due**]({% link homework/01.md %}){: .label .label-red }
+Aug 22
+: Substitution and transposition ciphers
+  : [Pre-reading]({% link notes/history_ciphers/substitution.md %}) digested from 
+  [Section 1.1]({{ site.textbook }})
+
+Aug 24
+: Frequency analysis
+  : [Pre-reading]({% link notes/history_ciphers/frequency_analysis.md %}) digested from 
+  [Section 1.1.1]({{ site.textbook }})
+
+Aug 26
+: Evolution of cryptography 
+  : [Pre-reading]({% link notes/history_ciphers/evolution.md %}) digested from 
+  [Section 1.6]({{ site.textbook }})
+
 
