@@ -20,7 +20,8 @@ description: Securing communication through mathematics.
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://587.f22.matthewrobertballard.com' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
-# logo: '/assets/images/beta.png'
+logo: '/assets/images/cipher.png'
+images: '/assets/images/cipher.png'
 
 term: Fall 2022
 meeting_time: Mondays, Wednesdays, and Fridays 9:40-10:30 AM
