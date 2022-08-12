@@ -1,8 +1,8 @@
 
 <p align="center">
-    <h1 align="center">Transition to Advanced Mathematics</h1>
-    <p align="center">Honors 300 at UofSC in Fall 2022</p>
-    <p align="center"><strong><a href="https://300.f22.matthewrobertballard.com">The actual webpage.</a></strong></p>
+    <h1 align="center">Introduction to Cryptography</h1>
+    <p align="center">CSCE 557/Math 587 at UofSC in Fall 2022</p>
+    <p align="center"><strong><a href="https://587.f22.matthewrobertballard.com">The actual webpage.</a></strong></p>
     <br>
 </p>
 
