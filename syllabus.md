@@ -27,7 +27,7 @@ nav_order: 5
 
 ## Course Name and Number
 
-{% if site.honors %}HNRS: {% endif %} {{ site.tagline }} -- {{ site.title }}
+{% if site.honors %}HNRS: {% endif %} {{ site.tagline }} -- CSCE 557/{{ site.title }}
 
 ## Term 
 

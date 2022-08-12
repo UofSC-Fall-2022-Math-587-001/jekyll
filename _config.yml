@@ -16,7 +16,7 @@
 title: Math 587 
 tagline: Introduction to Cryptography 
 honors: false
-description: Secure communication through mathematics. 
+description: Securing communication through mathematics. 
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://587.f22.matthewrobertballard.com' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
