@@ -5,8 +5,6 @@ nav_exclude: true
 seo:
   type: Course
   name: Intro to Cryptopgrahy
-  logo: 'assets/images/cipher.png'
-  image: 'assets/images/cipher.png'
 ---
 
 # {% if site.honors %} HNRS: {% endif %} {{ site.tagline }}
