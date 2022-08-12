@@ -17,6 +17,6 @@ Aug 26
 : Evolution of cryptography 
   : [Pre-reading]({% link notes/history_ciphers/evolution.md %}) digested from 
   [Section 1.6]({{ site.textbook }})
-  : [**HW 0 due**]({% link homework/00.md %}){: .label .label-red }
+: [**HW 0 due**]({% link homework/00.md %}){: .label .label-red }
 
 
