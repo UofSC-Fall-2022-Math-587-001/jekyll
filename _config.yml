@@ -102,6 +102,8 @@ compress_html:
   blanklines: false
   profile: false
 
+google_analytics: G-TSSVJSVVFR
+
 kramdown:
   math_engine: nil
 #  parse_block_html: true
