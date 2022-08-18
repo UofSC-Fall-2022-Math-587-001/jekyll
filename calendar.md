@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Calendar
+title: Schedule
 description: Listing of course modules and topics.
-nav_order: 4
+nav_order: 1
 ---
 
-# Calendar
+# Schedule
 {% assign modules = site.modules | where: "ended", "false" %}
 {% for module in modules %}
 {{ module }}

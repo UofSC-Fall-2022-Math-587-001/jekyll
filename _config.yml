@@ -35,7 +35,7 @@ bulletin_desc: "Design of secret codes for secure communication, including encry
 prereqs: C or better in CSCE 145 or MATH 241, and at least one of CSCE 355, MATH 300, or MATH 374.
 cross_list: CSCE 557
 
-textbook: 'https://sp.springer.com/saml/login?idp=https://idp.sc.edu/entity&targetUrl=https://link.springer.com/book/10.1007/978-1-4939-1711e2'
+textbook: 'https://pascal-usc.primo.exlibrisgroup.com/view/action/uresolver.do?operation=resolveService&package_service_id=10178160220005618&institutionId=5618&customerId=5610&VE=true'
 teams_url: https://teams.microsoft.com/l/channel/19%3amgSuAAH29XMsFTVzBz-eND4H00pM2pdBNvg3RGLxW341%40thread.tacv2/General?groupId=75c12f91-ba8c-4e7a-8012-81f4fbc957fe&tenantId=4b2a4b19-d135-420e-8bb2-b1cd238998cc
 github_classroom: https://classroom.github.com/classrooms/110836390-intro-to-crypto-at-uofsc
 

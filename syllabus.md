@@ -80,7 +80,7 @@ the [Microsoft Team]({{ site.teams_url }}) for the course, and the [Github organ
 
 The main text for this course is 
 - J. Hoffstein, J. Pipher, J. Silverman. An introduction to mathematical cryptography. A free electronic copy is 
-[available](https://sp.springer.com/saml/login?idp=https://idp.sc.edu/entity&targetUrl=https://link.springer.com/book/10.1007/978-1-4939-1711e2) through 
+[available]({{ site.textbook }}) through 
 UofSC libraries. 
 
 Some other texts that you might find useful/interesting:

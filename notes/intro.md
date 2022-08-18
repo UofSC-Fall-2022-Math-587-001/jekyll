@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Notes  
-nav_order: 1
+nav_order: 4
 has_children: true
 ---
 
 # Course Notes 
 
-These will serve to provide the background ideas we will discuss in class. 
+We will collect any course notes here. 
 
 <!-- {% assign citable = site.citables | where:"key","rank_nullity" | first %}
 {{ citable.content }}
