@@ -24,7 +24,7 @@ logo: '/assets/images/cipher.png'
 images: '/assets/images/cipher.png'
 
 pdf2svg: '/opt/homebrew/bin/pdf2svg' 
-destination: '~/Github/587/UofSC-Fall-2022-Math-587-001.github.io'
+destination: '/Users/matt/Github/587/UofSC-Fall-2022-Math-587-001.github.io'
 
 term: Fall 2022
 meeting_time: Mondays, Wednesdays, and Fridays 9:40-10:30 AM
