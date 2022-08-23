@@ -1,3 +1,4 @@
+---
 title: Week 2 Announcement
 week: 2
 date: 2022-08-26
