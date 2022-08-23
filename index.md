@@ -17,7 +17,7 @@ seo:
 {% assign today_date = 'now' | date: '%s' | times: 1 %}
 {% if announce_date > today_date %}
 {{ site.announcements.last }}
-[Announcements](announcements.md){: .btn .btn-outline .fs-3 }
+[Announcements]({% link announcements.md %}){: .btn .btn-outline .fs-3 }
 {% endif %}
 {% endif %}
 

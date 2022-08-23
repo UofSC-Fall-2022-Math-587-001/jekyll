@@ -1,6 +1,6 @@
 ---
 title: Welcome and Orientation
-ended: false
+ended: true
 ---
 
 Aug 19 
