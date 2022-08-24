@@ -13,12 +13,15 @@ seo:
 {: .fs-6 .fw-300 }
 
 {% if site.announcements %}
-{% assign announce_date = site.announcements.last.date | date: '%s' | plus: 604800 %}
+{% for announcement in site.announcements %}
+{% assign announce_date = announcement.date | date: '%s' | times: 1 %}
+{% assign announce_date_plus_week = announce_date | plus: 604800 %}
 {% assign today_date = 'now' | date: '%s' | times: 1 %}
-{% if announce_date > today_date %}
-{{ site.announcements.last }}
+{% if announce_date <= today_date and announce_date_plus_week > today_date %}
+{{ site.announcements.first }}
 [Announcements]({% link announcements.md %}){: .btn .btn-outline .fs-3 }
 {% endif %}
+{% endfor %}
 {% endif %}
 
 ## Syllabus 
