@@ -30,7 +30,7 @@ term: Fall 2022
 meeting_time: Mondays, Wednesdays, and Fridays 9:40-10:30 AM
 meeting_location: LeConte College Room 348
 office : LeConte College Room 341
-office_hours: TBD
+office_hours: Mondays 1-4 or by appointment
 bulletin_desc: "Design of secret codes for secure communication, including encryption and integrity verification: ciphers, cryptographic hashing, and public key cryptosystems such as RSA. Mathematical principles underlying encryption. Code-breaking techniques. Cryptographic protocols."
 prereqs: C or better in CSCE 145 or MATH 241, and at least one of CSCE 355, MATH 300, or MATH 374.
 cross_list: CSCE 557
