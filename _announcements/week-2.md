@@ -11,6 +11,6 @@ Take a look at
 - and the [homework]({% link homework/02.md %}) for this week. 
 
 Due date for [homework 2]({% link homework/02.md %}) is moved to
-Tuesday September 6 due to Labor Day. Note: the files in your 
+**Wednesday** September **7** due to Labor Day. Note: the files in your 
 repository will **not** update to reflect this. 
 

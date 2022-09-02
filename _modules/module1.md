@@ -1,6 +1,6 @@
 ---
 title: Historical cryptography and cryptanalysis	
-ended: false
+ended: true
 ---
 
 Aug 22
