@@ -27,5 +27,9 @@ Sep 9
 
 Sep 12
 : The discrete logarithm problem 
-  : Pre-reading [Section 2.1]({{ site.textbook }}) 
+  : Pre-reading [Section 2.2]({{ site.textbook }}) 
 : [**HW 3 due**]({% link homework/03.md %}){: .label .label-red }
+
+Sep 14
+: Order notation
+  : Pre-reading [Section 2.6]({{ site.textbook }}) 

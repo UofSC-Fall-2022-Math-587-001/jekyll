@@ -4,7 +4,7 @@ week: 3
 date: 2022-09-02
 ---
 
-**Starting Wednesday September 7, we will return in-person 
+**Starting Wednesday September 7, we will return to in-person 
 instruction in LC Room 348**. Please bring a computer (if 
 you have one) and a device to scan paper (a modern smartphone 
 works). 
