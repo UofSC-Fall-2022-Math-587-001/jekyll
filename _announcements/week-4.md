@@ -1,7 +1,7 @@
 ---
 title: Week 4 Announcement
 week: 4
-date: 2022-09-02
+date: 2022-09-09
 ---
 
 This week we will try self-formed groups. Instead of assigning 
