@@ -1,6 +1,6 @@
 ---
 title: Mathematical preliminaries
-ended: false
+ended: true
 ---
 
 Aug 29
