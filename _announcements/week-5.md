@@ -9,5 +9,5 @@ everyone to groups, you can create groups yourself.
 
 Take a look at 
 - the schedule for [this week]({% link calendar.md %})
-- and the [homework]({% link homework/02.md %}) for this week. 
+- and the [homework]({% link homework/05.md %}) for this week. 
 

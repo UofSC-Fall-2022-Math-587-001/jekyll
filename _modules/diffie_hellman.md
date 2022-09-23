@@ -1,5 +1,5 @@
 ---
-title: Diffie-Hellman and ElGamal 
+title: Diffie-Hellman key exchange and ElGamal public key cryptosystem
 ended: false
 ---
 

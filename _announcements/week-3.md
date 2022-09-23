@@ -11,5 +11,5 @@ works).
 
 Take a look at 
 - the schedule for [this week]({% link calendar.md %})
-- and the [homework]({% link homework/02.md %}) for this week. 
+- and the [homework]({% link homework/03.md %}) for this week. 
 
