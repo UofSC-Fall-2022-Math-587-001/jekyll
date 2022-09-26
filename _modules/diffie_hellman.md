@@ -21,7 +21,7 @@ Sep 23
   : Pre-reading [Section 2.7]({{ site.textbook }})
 
 Sep 26
-: Solving congruences with composite moduli
+: Chinese Remainder Theorem
   : Pre-reading [Section 2.8]({{ site.textbook }})
 : [**HW 5 due**]({% link homework/05.md %}){: .label .label-red }
 
