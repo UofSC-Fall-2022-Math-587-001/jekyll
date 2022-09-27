@@ -17,14 +17,14 @@ Sep 21
   : Pre-reading [Section 2.4]({{ site.textbook }})
 
 Sep 23
-: Shanks Babystep-Giantstep Algorithm 
+: Shanks Babystep-Giantstep algorithm 
   : Pre-reading [Section 2.7]({{ site.textbook }})
 
 Sep 26
-: Chinese Remainder Theorem
+: Chinese remainder theorem
   : Pre-reading [Section 2.8]({{ site.textbook }})
 : [**HW 5 due**]({% link homework/05.md %}){: .label .label-red }
 
 Sep 28
-: Pohlig-Hellman Algorithm 
+: Pohlig-Hellman algorithm 
   : Pre-reading [Section 2.9]({{ site.textbook }})

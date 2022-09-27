@@ -9,6 +9,35 @@ Sep 30
 
 Oct 3
 : RSA public key cryptosystem
-  : Pre-reading [Sections 3.2]({{ site.textbook }})
+  : Pre-reading [Section 3.2]({{ site.textbook }})
 : [**HW 6 due**]({% link homework/06.md %}){: .label .label-red }
 
+Oct 5 
+: Finding large primes 
+  : Pre-reading [Section 3.4]({{ site.textbook }})
+
+Oct 7
+: Lots of primes (probably) 
+  : Pre-reading [Sections 3.4.1, 3.4.2]({{ site.textbook }})
+
+Oct 10
+: Pollard's $p-1$ factorization
+  : Pre-reading [Section 3.5]({{ site.textbook }})
+: [**HW 7 due**]({% link homework/07.md %}){: .label .label-red }
+
+Oct 12
+: Factorizations using differences of squares
+  : Pre-reading [Section 3.6]({{ site.textbook }}) 
+
+Oct 17 
+: Smooth numbers and the quadratic sieve 
+  : Pre-reading [Sections 3.7.1, 3.7.2]({{ site.textbook }}) 
+: [**HW 8 due**]({% link homework/08.md %}){: .label .label-red }
+
+Oct 19 
+: The number field sieve 
+  : Pre-reading [Section 3.7.3]({{ site.textbook }}) 
+
+Oct 21
+: The index calculus method 
+  : Pre-reading [Section 3.8]({{ site.textbook }})
