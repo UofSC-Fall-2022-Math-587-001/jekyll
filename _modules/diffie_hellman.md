@@ -13,7 +13,7 @@ Sep 19
 : [**HW 4 due**]({% link homework/04.md %}){: .label .label-red }
 
 Sep 21
-: ElGamal public key cryptosystem
+: Elgamal public key cryptosystem
   : Pre-reading [Section 2.4]({{ site.textbook }})
 
 Sep 23
