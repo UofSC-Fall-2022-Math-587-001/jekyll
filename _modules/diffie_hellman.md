@@ -1,6 +1,6 @@
 ---
 title: Diffie-Hellman key exchange and ElGamal public key cryptosystem
-ended: false
+ended: true	
 ---
 
 Sep 16
