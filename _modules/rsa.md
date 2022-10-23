@@ -4,7 +4,7 @@ ended: false
 ---
 
 Oct 3
-: Euler's formula and roots modulo a product of two primes
+: Roots modulo a product of two primes
   : Pre-reading [Section 3.1]({{ site.textbook }})
 
 Oct 5
@@ -42,3 +42,7 @@ Oct 24
 : The index calculus method 
   : Pre-reading [Section 3.8]({{ site.textbook }})
 : [**HW 9 due**]({% link homework/09.md %}){: .label .label-red }
+
+Oct 26 
+: Quadratic residues
+  : Pre-reading [Section 3.9]({{ site.textbook }}) 
