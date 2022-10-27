@@ -18,7 +18,7 @@ Nov 2
   : Pre-reading [Section 6.3]({{ site.textbook }})
 
 Nov 4
-: Fast powering for and complexity of the ECDLP 
+: Fast powering for and complexity of ECDLP 
   : Pre-reading [Sections 6.3.1, 6.3.2]({{ site.textbook }})
 
 Nov 7
