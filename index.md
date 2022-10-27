@@ -34,10 +34,6 @@ At the [calendar tab]({% link calendar.md %}), you will find our topic schedule
 for each class along with the pre-reading, worksheets for that class, and 
 due dates for assignments.  
 
-## Notes 
-
-The [notes tab]({% link notes/intro.md %}) is where you can find the course reading. 
-
 ## Homework
 
 There are tabs for class [homework]({% link homework/index.md %}). 

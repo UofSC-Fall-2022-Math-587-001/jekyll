@@ -1,6 +1,6 @@
 ---
 title: RSA and questions in computational number theory
-ended: false
+ended: true
 ---
 
 Oct 3
