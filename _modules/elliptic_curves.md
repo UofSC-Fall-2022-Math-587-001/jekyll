@@ -50,7 +50,6 @@ Nov 18
 Nov 21
 : Torsion points and divisors
   : Pre-reading [Sections 6.8.1, 6.8.2]({{ site.textbook }})
-: [**HW 13 due**]({% link homework/11.md %}){: .label .label-red }
 : **Project drafts due**{: .label .label-yellow }
 
 Nov 28
