@@ -35,21 +35,21 @@ Nov 11
   : Pre-reading [Section 6.4.3]({{ site.textbook }})
 
 Nov 14
-: A little history of public key cryptography
-  : Pre-reading [Section 6.5]({{ site.textbook }})
+: Lenstra's factorization algorithm
+  : Pre-reading [Section 6.6]({{ site.textbook }})
 : [**HW 12 due**]({% link homework/11.md %}){: .label .label-red }
 
 Nov 16 
-: Lenstra's factorization algorithm
-  : Pre-reading [Section 6.6]({{ site.textbook }})
-
-Nov 18 
 : Elliptic curves in characteristic 2 
   : Pre-reading [Section 6.7]({{ site.textbook }})
 
-Nov 21
+Nov 18 
 : Torsion points and divisors
   : Pre-reading [Sections 6.8.1, 6.8.2]({{ site.textbook }})
+
+Nov 21
+: A little history of public key cryptography
+  : Pre-reading [Section 6.5]({{ site.textbook }})
 : **Project drafts due**{: .label .label-yellow }
 
 Nov 28
