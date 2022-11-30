@@ -7,7 +7,7 @@ date: 2022-11-25
 For the last week of classes, make sure 
 - to present _at least once_ (this is a quarter of your grade 
 completely in your control) and 
-- to turn in any revisions by the end of Friday Decemeber 2 
+- to turn in any revisions by the end of Friday December 2 
 (all course materials can be found at our GitHub org) 
 
 Each presentation after the first will convert your lowest 
