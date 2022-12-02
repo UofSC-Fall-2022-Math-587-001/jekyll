@@ -4,7 +4,7 @@ week: 16
 date: 2022-12-02
 ---
 
-Remember that any revision are due by the end of 
+Remember that any revisions are due by the end of 
 Friday, December 2. 
 
 As we have a final project in lieu of a final exam, 
